@@ -5,7 +5,7 @@ PORT = 8080
 name = os.environ['NAME']
 if name == None or len(name) == 0:
     name = "world"
-MESSAGE = "Good Morning, " + name + "!"
+MESSAGE = "How about you, " + name + "!"
 print("Message: '" + MESSAGE + "'")
 
 app = Flask(__name__)
